@@ -1,0 +1,15 @@
+.row{
+    text-align: center;
+    height: 20rem;
+}
+
+.question{
+    font-size: 2rem;
+    font-weight: bold;
+    align-self: center;
+}
+
+.answer {
+    align-self: center;
+    font-size: 1.2rem;
+}
