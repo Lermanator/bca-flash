@@ -8,7 +8,7 @@ import { Container, Row, Col} from 'react-bootstrap';
 function Classes() {
   return (
     <div className="Classes">
-        <Container fluid className="">
+        <Container fluid className="classesContainer">
             <Row className="classRow">
                 <div id="topText">Discover the classes BCA Flash has to offer!</div>
             </Row>

@@ -5,7 +5,7 @@ import { Card, Button } from 'react-bootstrap';
 export default function ClassCard(info) {
 
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card>
       <Card.Img variant="top" src= {"../" + info.name + ".png"}/>
       <Card.Body>
         <Card.Title>{info.name}</Card.Title>
