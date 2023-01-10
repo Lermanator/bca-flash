@@ -9,6 +9,9 @@ export default function ClassCard(info) {
       <Card.Img variant="top" src= {"../" + info.name + ".png"}/>
       <Card.Body>
         <Card.Title>{info.name}</Card.Title>
+        <Card.Text>
+          A cooking class offered by BCA Culinary students.
+        </Card.Text>
         <Button variant="primary">See More</Button>
       </Card.Body>
     </Card>
