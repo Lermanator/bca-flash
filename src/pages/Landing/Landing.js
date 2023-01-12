@@ -1,16 +1,16 @@
 import './Landing.css';
-import React from 'react';
+import { React  } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Typewriter from "typewriter-effect"; 
 
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 
 function Landing() {
   return (
     <div className="Landing">
-        <Container fluid>
-            <div className="title">
+        <Container fluid className="titleContainer">
+         <Row className="title">
             <Typewriter
                 onInit={(typewriter) => { 
                   typewriter
@@ -19,7 +19,7 @@ function Landing() {
                   .start();
                 }}
             />
-            </div>
+            </Row>
         </Container>
     </div>
   );

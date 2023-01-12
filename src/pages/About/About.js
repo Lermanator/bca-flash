@@ -25,16 +25,16 @@ function About() {
             </Col>
             <Col className="image_col">
               <div className="grid">
-                  <Image src="../bcaflash1.png" className="rounded-5 fl1" width="65%"/>
-                  <Image src="../bcaflash2.png" className="rounded-5 fl2" width="65%"/>
+                  <Image src="../bcaflash1.png" className="rounded-5 fl1" width="75%"/>
+                  <Image src="../bcaflash2.png" className="rounded-5 fl2" width="75%"/>
               </div>
             </Col>
           </Row>
           <Row>
             <Col className="image_col"> 
               <div className="grid">
-                  <Image src="../bcaflash3.png" className="rounded-5 fl3" width="65%"/>
-                  <Image src="../bcaflash4.png" className="rounded-5 fl4" width="65%"/>
+                  <Image src="../bcaflash3.png" className="rounded-5 fl3" width="75%"/>
+                  <Image src="../bcaflash4.png" className="rounded-5 fl4" width="75%"/>
               </div>
             </Col>
             <Col className="text_col">
@@ -42,7 +42,6 @@ function About() {
                <Typewriter
                 onInit={(typewriter) => { 
                   typewriter
-                  .pauseFor(2500)
                   .typeString("When & Where is BCA Flash?")
                   .start();
                 }}
@@ -57,7 +56,6 @@ function About() {
               <Typewriter
                 onInit={(typewriter) => { 
                   typewriter
-                  .pauseFor(6250)
                   .typeString("How can I sign up?")
                   .start();
                 }}
@@ -67,8 +65,8 @@ function About() {
             </Col>
             <Col className="image_col"> 
               <div className="grid">
-                  <Image src="../bcaflash5.png" className="rounded-5 fl1" width="65%"/>
-                  <Image src="../bcaflash4.png" className="rounded-5 fl2" width="65%"/>
+                  <Image src="../bcaflash5.png" className="rounded-5 fl1" width="75%"/>
+                  <Image src="../bcaflash4.png" className="rounded-5 fl2" width="75%"/>
               </div>
             </Col>
           </Row>

@@ -17,6 +17,8 @@
     grid-template-rows: repeat(3, 35%);
     grid-template-columns: repeat(3, 40%);
     align-items: center;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .fl1 { 
@@ -40,17 +42,18 @@
 }
 
 .question{
-    font-size: 2rem;
+    font-size: 225%;
     text-align: center;
     font-weight: bold;
     align-self: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .answer {
     align-self: center;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 135%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }

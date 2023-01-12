@@ -1,0 +1,12 @@
+.title {
+    display: flex;
+    text-align: center;
+    font-size: 7rem;
+    padding-top: 10%;
+}
+
+.section {
+    position: absolute;
+    width: 100%; 
+    height: 100vh; 
+}

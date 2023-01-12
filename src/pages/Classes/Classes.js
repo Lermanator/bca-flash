@@ -1,10 +1,15 @@
 import './Classes.css';
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import ClassCard from './ClassCard/ClassCard'
+
 import Typewriter from "typewriter-effect"; 
 
-import { Container, Row, Col} from 'react-bootstrap';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import { Container, Row } from 'react-bootstrap';
+
+
 
 function Classes() {
   return (
@@ -19,10 +24,11 @@ function Classes() {
                   .start();
                 }}
               />
-                {/* <div id="topText">Discover the classes BCA Flash has to offer!</div> */}
             </Row>
             <Row className = "cardRow">
-                <ClassCard name="Cooking"/>
+                <ClassCard name="Rainbow in a bottle" 
+                text=""
+                />
             </Row>
         </Container>
     </div>

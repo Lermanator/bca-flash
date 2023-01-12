@@ -1,8 +1,15 @@
-import {React, useState} from 'react';
 import './ClassCard.css';
-import { Card, Button } from 'react-bootstrap';
+
+import React, {useState} from 'react';
+import { Card, Button, Modal } from 'react-bootstrap';
 
 export default function ClassCard(info) {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
 
   return (
     <Card>
@@ -10,9 +17,18 @@ export default function ClassCard(info) {
       <Card.Body>
         <Card.Title>{info.name}</Card.Title>
         <Card.Text>
-          A cooking class offered by BCA Culinary students.
+          {info.text}
         </Card.Text>
-        <Button variant="primary">See More</Button>
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>{info.name}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>{info.desc}</Modal.Body>
+          <Modal.Footer className="justify-content-center">
+            Teachers: {info.teachers}
+          </Modal.Footer>
+        </Modal>
+        <Button variant="primary" onClick={handleShow}>See More</Button>
       </Card.Body>
     </Card>
   );
