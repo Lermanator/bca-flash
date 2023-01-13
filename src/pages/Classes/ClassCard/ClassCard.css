@@ -3,7 +3,16 @@
     padding: 0px;
 }
 
-.card-img {
+.cardImg {
     object-fit: cover;
+    width: 18rem;
+    height: 18rem;
 }
 
+.teachers {
+    font-size: .75vw;
+}
+
+.modal-header {
+    background-color: rgb(255, 183, 183);
+}

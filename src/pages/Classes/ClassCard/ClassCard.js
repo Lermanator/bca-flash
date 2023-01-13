@@ -13,20 +13,17 @@ export default function ClassCard(info) {
 
   return (
     <Card>
-      <Card.Img variant="top" src= {"../" + info.name + ".png"}/>
+      <Card.Img variant="top" className="cardImg" src= {"../" + info.img + ".png"}/>
       <Card.Body>
         <Card.Title>{info.name}</Card.Title>
         <Card.Text>
           {info.text}
         </Card.Text>
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
-            <Modal.Title>{info.name}</Modal.Title>
+            <Modal.Title className='ms-auto'>{info.name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>{info.desc}</Modal.Body>
-          <Modal.Footer className="justify-content-center">
-            Teachers: {info.teachers}
-          </Modal.Footer>
         </Modal>
         <Button variant="primary" onClick={handleShow}>See More</Button>
       </Card.Body>
