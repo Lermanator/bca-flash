@@ -15,7 +15,6 @@ function NavBar() {
                     id="logo"
                 />
               <Nav.Link href="/" className="nav-links">Home</Nav.Link>
-              <Nav.Link href="/about" className="nav-links">About</Nav.Link>
               <Nav.Link href="/classes" className="nav-links">Classes</Nav.Link>
             </Nav>
           </Navbar.Collapse>

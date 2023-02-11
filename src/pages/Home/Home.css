@@ -1,6 +1,9 @@
-.row{
+.text_and_image{
     display: flex;
-    height: 27.5rem;
+}
+
+.header_row {
+    height: 12rem;
 }
 
 .flashimage, .flash_image2 {
@@ -11,13 +14,22 @@
     min-width: 250px;
 }
 
+.header {
+    text-align: center;
+    align-self: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
 .grid {
     display: grid;
     width: 80%;
     grid-template-rows: repeat(3, 35%);
     grid-template-columns: repeat(3, 40%);
     align-items: center;
+    align-self: center;
     padding-bottom: 2.5rem;
+    height: 20rem;
     padding-top: 2.5rem;
 }
 
@@ -53,9 +65,11 @@
 .answer {
     align-self: center;
     text-align: center;
-    font-size: 135%;
+    font-size: 2rem;
+    height: 15vh;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-bottom: 40rem;
 }
 
 .text_col {
@@ -71,6 +85,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .imgContainer {

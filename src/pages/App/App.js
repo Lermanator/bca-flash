@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Landing from "../Landing/Landing"
-import About from "../About/About";
+import Home from "../Home/Home";
 import NavBar from "../NavBar/NavBar"
 import Classes from "../Classes/Classes"
+import Footer from "../Footer/Footer"
 
 export default function App() {
   return (
@@ -13,11 +13,11 @@ export default function App() {
       <NavBar/>
       <BrowserRouter className="pagebody">
         <Routes>
-          <Route exact path = "/" element ={<Landing/>}/>
-          <Route path = "/about" element={<About/>}/>
+          <Route exact path = "/" element ={<Home/>}/>
           <Route path = "/classes" element={<Classes/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
