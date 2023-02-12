@@ -4,6 +4,8 @@
 
 .header_row {
     height: 12rem;
+    display:flex;
+    justify-content: center;
 }
 
 .flashimage, .flash_image2 {
@@ -66,10 +68,14 @@
     align-self: center;
     text-align: center;
     font-size: 2rem;
-    height: 15vh;
+    max-height: 15vh;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 40rem;
+}
+
+#answ2 {
+    padding-bottom: 20rem !important;
 }
 
 .text_col {
@@ -85,10 +91,52 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 10rem;
+}
+
+#col3 {
+    height: 35rem !important;
+    padding: 0 !important;
+}
+
+@media only screen and (min-width: 1001px) {
+    #col1 {
+        height: 40rem !important;
+    }
+    
+    #row1 {
+        height: 40rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 1001px) {
+    #answ3 {
+        padding-right: 0 !important;
+    }
+
+    .registerButton {
+        height: 4vw !important;
+    }
+}
+
+#answ3 {
+    padding-bottom: 20rem !important;
 }
 
 .imgContainer {
     width: 100%;
+}
+
+.registerButton {
+    display:flex;
+    width: 10rem !important;
+    height: 2.5vw;
+    justify-self: center;
+    text-align: center;
+    font-size: 1.2rem !important;
+    background-color: #af1b1b !important;
+    border: #af1b1b !important;
+    align-items: center;
 }

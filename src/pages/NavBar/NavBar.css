@@ -13,6 +13,9 @@
     color: white;
     font-family: sans-serif;
     padding-left: 5%;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .nav-links:hover {
@@ -20,7 +23,7 @@
     }
 
 .navbar {
-    width:100%;
+    width:100vw;
     margin: 0;
 }
 
@@ -31,7 +34,7 @@
 }
 
 #logo {
-    width: 15%;
+    width: 12.5%;
     height: 15%;
 }
     

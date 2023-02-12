@@ -16,6 +16,8 @@ function NavBar() {
                 />
               <Nav.Link href="/" className="nav-links">Home</Nav.Link>
               <Nav.Link href="/classes" className="nav-links">Classes</Nav.Link>
+              <Nav.Link href="/aboutus" className="nav-links">About Us</Nav.Link>
+              <Nav.Link href="https://tinyurl.com/registerbcaflash" className="nav-links">Register</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         

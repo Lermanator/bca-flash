@@ -1,0 +1,45 @@
+.headshots {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headshot {
+    width: 16rem;
+}
+
+.image_and_text {
+    margin: 0 !important;
+}
+
+.caption {
+    padding-top: .3rem;
+    text-align: center;
+    width: 16rem;
+    font-size: 1rem;
+}
+
+.top-pad {
+    padding-top: 3rem;
+}
+
+.bottom-pad {
+    padding-bottom: 5rem;
+}
+
+
+@media only screen and (max-width: 1001px) {
+    .caption {
+        font-size: 1.25rem;
+    }
+
+    .bottom-pad {
+        padding-bottom: 12.2rem;
+    }
+}

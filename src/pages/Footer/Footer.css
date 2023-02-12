@@ -1,0 +1,18 @@
+footer {
+    display: block;
+    background-color:  #8B0000;
+    height: 7.5vh;
+    width: 100%;
+}
+
+.footerElement {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1001px) {
+    footer {
+        height: 4vh !important;
+    }
+}

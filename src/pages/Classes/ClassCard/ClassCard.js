@@ -19,7 +19,7 @@ export default function ClassCard(info) {
         <Card.Text>
           {info.text}
         </Card.Text>
-        <Modal show={show} onHide={handleClose} centered>
+        <Modal show={show} onHide={handleClose} centered dialogClassName="my-modal">
           <Modal.Header closeButton>
             <Modal.Title className='ms-auto'>{info.name}</Modal.Title>
           </Modal.Header>
