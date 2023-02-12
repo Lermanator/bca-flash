@@ -12,7 +12,7 @@ export default function ClassCard(info) {
 
 
   return (
-    <Card>
+    <Card className={info.class}>
       <Card.Img variant="top" className="cardImg" src= {"../" + info.img + ".png"}/>
       <Card.Body>
         <Card.Title>{info.name}</Card.Title>

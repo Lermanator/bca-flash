@@ -1,34 +1,47 @@
 .card {
     width: 18rem;
     padding: 0px;
+    margin-bottom: 2rem;
 }
 
 .cardImg {
     object-fit: cover;
-    width: 18rem;
-    height: 18rem;
+    width: 17.85rem;
+    height: 17.85rem;
 }
 
-.teachers {
-    font-size: .75vw;
+.card-text {
+    height: 3rem;
 }
-
 
 
 .modal-header {
-    background-color: rgb(255, 183, 183);
+    background-color: rgb(199, 194, 194);
     margin: 0;
     border: 0;
 }
 
 .modal-body {
     text-align: center;
+    height: fit-content;
 }
 
 @media only screen and (max-width: 1000px) {
-    .modal-body {
-        height: 25vh;
+    .card-text {
+        font-size: 1.2rem;
+    }
+    
+    .card {
+        width: 23rem;
+    }
+
+    .modal-body{
         font-size: 2rem;
+    }
+
+    .cardImg {
+        width: 22.88rem;
+        height: 22.88rem;
     }
 }
 

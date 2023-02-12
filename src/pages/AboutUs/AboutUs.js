@@ -35,7 +35,7 @@ function AboutUs() {
             <Row className="titles">
                 <div className="caption"><b>Elaine Nam</b><br/><i>Director of Classes</i></div>
                 <div className="caption"><b>Ella Ehrlich</b><br/><i>Director of Classes</i></div>
-                <div className="caption"><b>AEmma Lau</b><br/><i>Director of Volunteers</i></div>
+                <div className="caption"><b>Emma Lau</b><br/><i>Director of Volunteers</i></div>
             </Row>
         </Row>
         <Row className="image_and_text top-pad">

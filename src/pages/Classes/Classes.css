@@ -4,6 +4,7 @@
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .classesContainer {
@@ -12,7 +13,34 @@
 }
 
 .cardRow {
-    padding-top: 2.5rem;
+    justify-content: space-evenly;
+}
+
+.firstInRow {
+    display:none;
+}
+
+.lastInRow2 {
+    display:none;
 }
 
 
+@media only screen and (max-width: 1280px) {
+    footer {
+        height: 4vh !important;
+    }
+
+    .lastInRow {
+        display: none;
+    }
+    .firstInRow {
+        display: block;
+    }
+
+    .lastInRow2 {
+        display: block;
+    }
+    .firstInRow2 {
+        display: none;
+    }
+}
