@@ -1,7 +1,9 @@
 footer {
-    display: block;
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 7.5vh;
+    background-color:  #8B0000;
+    height: 4vw;
 }
 
 .footerContainer {
@@ -9,13 +11,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  #8B0000;
     color: white;
-    height: 100%;
+    height: fit-content;
+    background-color:  #8B0000;
+    padding: 0;
 }
 
-@media only screen and (max-width: 1001px) {
-    footer {
-        height: 4vh !important;
-    }
+.footertext {
+    font-size: 1.3rem;
+    text-align: center;
 }

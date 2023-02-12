@@ -6,8 +6,8 @@ function Footer() {
     <div className="Footer">
         <footer>
           <Container fluid className="footerContainer">
-            <div>Ⓒ BCA Flash 2023</div>
-            <div>Register <a href="https://tinyurl.com/registerbcaflash">Here</a></div>
+            <div className="footertext">Ⓒ BCA Flash 2023</div>
+            <div className="footertext">Register <a href="https://tinyurl.com/registerbcaflash">Here</a></div>
           </Container>
         </footer>
     </div>
