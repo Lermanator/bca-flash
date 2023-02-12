@@ -6,16 +6,8 @@ function Footer() {
     <div className="Footer">
         <footer>
           <Container fluid className="footerContainer">
-            <Row>
-              <div className="footerElement">
-                BCA Flash 2023 Ⓒ
-              </div>
-            </Row>
-            <Row>
-            <div className="footerElement"> 
-              Register <a href="https://tinyurl.com/registerbcaflash">Here</a>
-            </div>
-            </Row>
+            <div>Ⓒ BCA Flash 2023</div>
+            <div>Register <a href="https://tinyurl.com/registerbcaflash">Here</a></div>
           </Container>
         </footer>
     </div>

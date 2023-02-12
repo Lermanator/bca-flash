@@ -25,7 +25,7 @@ function Classes() {
                 }}
               />
             </Row>
-            <Row className = "cardRow">
+            <div className = "cardRow">
                 <ClassCard name="Rainbow in a bottle" 
                 img="RainbowInABottle"
                 text="Introduction into chemistry with a fun hands-on experiment"
@@ -38,7 +38,7 @@ function Classes() {
                 />
                 <ClassCard name="Using CAD to Build" 
                 img="cad"
-                text="Design and assemble a rocket through the CAD platform Onshape"
+                text="Design and assemble a rocket through a CAD platform"
                 desc="Our topic is focused on introducing the basics of CAD (Computer-Aided Design), an absolute essential for anyone interested in engineering or other STEM-related fields. Students will be able to use computers to sketch, model, and assemble parts of a rocket on popular CAD platform Onshape, and participate in other fun activities and challenges! By the end of the lesson, we hope to have fostered students' interests in both creative design and technology, and have taught them all the skills they need to bring their own ideas to life."
                 />
                 <ClassCard name="1..2..3 Blast Off!" 
@@ -50,16 +50,6 @@ function Classes() {
                 img="orthopedics"
                 text="Learn the basics of orthopedics through clay"
                 desc="Rainbow in a Bottle will teach students about density and its importance in our daily lives. In addition to this, students will perform a hands-on experiment to witness density in action first-hand that they'll then be able to take home."
-                class="lastInRow"
-                />
-                
-            </Row>
-            <Row className = "cardRow">
-                <ClassCard name="Clay-reating Bones" 
-                img="orthopedics"
-                text="Learn the basics of orthopedics through clay"
-                desc="Rainbow in a Bottle will teach students about density and its importance in our daily lives. In addition to this, students will perform a hands-on experiment to witness density in action first-hand that they'll then be able to take home."
-                class="firstInRow"
                 />
                 <ClassCard name="Creating Scenic Scapes" 
                 img="historypainting"
@@ -86,9 +76,6 @@ function Classes() {
                 text="Discover how epidemiologists study diseases"
                 desc="Would you like to learn how epidemiologists study diseases? How do epidemiologists find out what disease is plaguing a group of people? Learn more about epidemiologists in the Epidemiology class!"
                 />
-                
-            </Row>
-            <Row className = "cardRow">
                 <ClassCard name="Lab Fundamentals" 
                 img="loratory"
                 text="Introductory class to loratory work"
@@ -113,16 +100,6 @@ function Classes() {
                 img="tapdance"
                 text="Enjoy a fun class of jazz and tap dancing"
                 desc="We will be doing a fun and upbeat warmup for jazz and are welcoming all levels. Followed by a musical theater-jazz combination. Afterward, we will take a short break and begin tap with a warm-up as well. Then we will do some across the floor tap steps, and finish with a fun tap combo. "
-                class="lastInRow"
-                />
-                
-            </Row>
-            <Row className = "cardRow">
-                <ClassCard name="Dance-Basics: Jazz and Tap" 
-                img="tapdance"
-                text="Enjoy a fun class of jazz and tap dancing"
-                desc="We will be doing a fun and upbeat warmup for jazz and are welcoming all levels. Followed by a musical theater-jazz combination. Afterward, we will take a short break and begin tap with a warm-up as well. Then we will do some across the floor tap steps, and finish with a fun tap combo. "
-                class="firstInRow"
                 />
                 <ClassCard name="Culinary Basics" 
                 img="kitchen"
@@ -150,8 +127,6 @@ function Classes() {
                 desc="Machine learning is becoming more and more prominent in every industry. This course will teach students about the different types of machine learning and their usage. At the end of the lesson, students will build their own machine learning model. We are super excited to introduce young minds to the endless possibilities and applications of this rapidly-expanding field and hope they continue to study it afterwards."
                 />
                 
-            </Row>
-            <Row className = "cardRow">
                 <ClassCard name="Theatre Basics" 
                 img="improv"
                 text="Enjoy a class of fun improv games"
@@ -172,7 +147,7 @@ function Classes() {
                 text="Understanding our role in the enviroment"
                 desc="In our BCA Flash Class, students will have the chance to learn about the environment more in depth and do exciting activities that help deepen students' understanding of the environment and the role we can play within it."
                 />
-            </Row>
+            </div>
 
 
         </Container>
