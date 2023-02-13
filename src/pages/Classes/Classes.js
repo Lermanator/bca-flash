@@ -78,8 +78,8 @@ function Classes() {
                 />
                 <ClassCard name="Lab Fundamentals" 
                 img="loratory"
-                text="Introductory class to loratory work"
-                desc="Students will be taught the fundamentals of loratory work such as pipetting and will learn how reactions occur between different types of solutions depending on their densities and acidity. The class will make their own rainbow pipetting experiments and lava lamps to take home."
+                text="Introductory class to laboratory work"
+                desc="Students will be taught the fundamentals of laboratory work such as pipetting and will learn how reactions occur between different types of solutions depending on their densities and acidity. The class will make their own rainbow pipetting experiments and lava lamps to take home."
                 />
                 <ClassCard name="Catapult Design Lab" 
                 img="catapult"
