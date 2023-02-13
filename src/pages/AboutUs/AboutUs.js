@@ -30,20 +30,24 @@ function AboutUs() {
             <Row className="headshots">
                 <Image src="../elainenam.png" className="rounded-5 headshot"/>
                 <Image src="../ellaerlich.png" className="rounded-5 headshot"/>
-                <Image src="../emmalau.png" className="rounded-5 headshot"/>
+                <Image src="../genevive.png" className="rounded-5 headshot"/>
             </Row>
             <Row className="titles">
                 <div className="caption"><b>Elaine Nam</b><br/><i>Director of Classes</i></div>
                 <div className="caption"><b>Ella Ehrlich</b><br/><i>Director of Classes</i></div>
-                <div className="caption"><b>Emma Lau</b><br/><i>Director of Volunteers</i></div>
+                <div className="caption"><b>Genevieve Simmons</b><br/><i>Director of Public Relations</i></div>
             </Row>
         </Row>
         <Row className="image_and_text top-pad">
             <Row className="headshots">
-                <Image src="../genevive.png" className="rounded-5 headshot"/>
+                <Image src="../emmalau.png" className="rounded-5 headshot"/>
+                <Image src="../sofiya.png" className="rounded-5 headshot"/>
+                <Image src="../keira.png" className="rounded-5 headshot"/>
             </Row>
             <Row className="titles bottom-pad">
-                <div className="caption"><b>Genevieve Simmons</b><br/><i>Director of Public Relations</i></div>
+                <div className="caption"><b>Emma Lau</b><br/><i>Director of Volunteers</i></div>
+                <div className="caption"><b>Sofiya Doroshenko</b><br/><i>Director of Volunteers</i></div>
+                <div className="caption"><b>Keira Tellado</b><br/><i>Director of Finances</i></div>
             </Row>
         </Row>
         </Container>

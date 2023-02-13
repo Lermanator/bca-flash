@@ -115,10 +115,6 @@
     #answ3 {
         padding-right: 0 !important;
     }
-
-    .registerButton {
-        height: 4vw !important;
-    }
 }
 
 #answ3 {
@@ -132,7 +128,7 @@
 .registerButton {
     display:flex;
     width: 10rem !important;
-    height: 2.5vw;
+    height: fit-content;
     justify-self: center;
     text-align: center;
     font-size: 1.2rem !important;

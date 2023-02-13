@@ -36,7 +36,7 @@ function About() {
             <Col className="text_col">
               <div className="question"> When and Where is BCA Flash?</div>
               <div className="answer" id="answ2">Where: 200 Hackensack Ave, Hackensack, NJ 07601 <br/>
-              When: Saturday, March 25th, 2023 (9AM - 4PM) <br/>
+              When: Saturday, March 25th, 2023 (9AM - 3PM) <br/>
               <i>Please drop off your child earlier to optimize travel time and avoid traffic.</i>
              </div>
             </Col>
@@ -45,7 +45,7 @@ function About() {
             <Col className="text_col">
               <div className="question"> How can I sign up? </div>
               <div className="answer" id="answ3">Form sign-ups as well as admission fee waiver forms can be found on the website:<br/> <a href="https://tinyurl.com/registerbcaflash"> https://tinyurl.com/registerbcaflash</a> <br/>
-              Deadline for sign-ups will most likely be March 11, 2023 at 11:59 PM
+              Deadline for sign-ups will be March 12, 2023 at 11:59 PM
               </div>
             </Col>
             <Col className="image_col" id="col3"> 
