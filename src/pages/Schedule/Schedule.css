@@ -1,0 +1,10 @@
+.scheduleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scheduleImage {
+    max-height: 60rem;
+    margin-top: 5rem;
+}

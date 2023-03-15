@@ -7,6 +7,7 @@ import NavBar from "../NavBar/NavBar"
 import Classes from "../Classes/Classes"
 import Footer from "../Footer/Footer"
 import AboutUs from "../AboutUs/AboutUs"
+import Schedule from "../Schedule/Schedule"
 
 export default function App() {
   return (
@@ -17,9 +18,9 @@ export default function App() {
           <Route exact path = "/" element ={<Home/>}/>
           <Route path = "/classes" element={<Classes/>}/>
           <Route path = "/aboutus" element={<AboutUs/>}/>
+          <Route path = "/schedule" element={<Schedule/>}/>
         </Routes>
       </BrowserRouter>
-      <Footer/>
     </div>
   );
 }
