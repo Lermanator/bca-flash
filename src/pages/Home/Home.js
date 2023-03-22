@@ -57,7 +57,7 @@ function About() {
           </Row>
           <Row className="sponsors-row">
             <Row className="sponsors">Thank You to Our Sponsors!</Row>
-            <Image src="../sponsors.png" className="sponsors-img"/>
+            <Image src="../Sponsors.png" className="sponsors-img"/>
           </Row>
         </Container>
     </div>
