@@ -136,3 +136,24 @@
     border: #af1b1b !important;
     align-items: center;
 }
+
+.sponsors-row {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.sponsors {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.sponsors-img {
+    width: 80%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
