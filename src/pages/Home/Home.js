@@ -8,7 +8,7 @@ function About() {
     <div className="About">
         <Container fluid>
           <Row className="header_row">
-            <div className="header">Welcome to BCA Flash 2023</div>
+            <div className="header">Welcome to BCA Flash 2023!!!</div>
             <br/>
             <Button className="registerButton" href="https://tinyurl.com/registerbcaflash">Register Now</Button>
           </Row>
