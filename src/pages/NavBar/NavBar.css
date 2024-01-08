@@ -1,6 +1,6 @@
 .navbar-color{
-    background-color: #8B0000;
-    justify-content: left;
+    background-color: #131212;
+    justify-content: right;
 }
 
 .me-auto {
@@ -10,7 +10,7 @@
 }
 
 .nav-link {
-    color: white;
+    color: #E8E8E8;
     font-family: sans-serif;
     padding-left: 5%;
     align-content: center;
@@ -19,8 +19,8 @@
 }
 
 .nav-links:hover {
-    color: rgb(216, 212, 212); 
-    }
+    color: rgb(148, 148, 145);
+}
 
 .navbar {
     width:100vw;

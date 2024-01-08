@@ -1,3 +1,43 @@
+.header {
+    color: #E8E8E8;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #F52977,#0091AD);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+body {
+    /* font-family: monaco, monospace; */
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #131212;
+}
+
+.boardRow {
+    margin: auto;
+    background: linear-gradient(90deg, #F52977,#0091AD);
+    text-align: center;
+    padding: 50px;
+    width: 1250px;
+    border-radius: 75px;
+    margin-bottom: 75px;
+}
+
+.row {
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#publicRelations {
+    margin-bottom: 150px !important;
+}
+
+#spaceBtn {
+    background-color: #131212;
+    border: none;
+}
+
 .headshots {
     display:flex;
     justify-content: space-evenly;

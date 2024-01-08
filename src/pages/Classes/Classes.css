@@ -1,10 +1,17 @@
+
+
 .classRow {
     height:5rem;
     font-size: 3.5rem;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
     padding-top: 1rem;
     margin-bottom: 2rem;
+
+    text-transform: uppercase;
+	background: linear-gradient(to right, #F52977,#0091AD);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .classesContainer {

@@ -20,18 +20,19 @@ function Classes() {
                 onInit={(typewriter) => { 
                   typewriter
 
-                  .typeString("Explore Our Classes")
+                  .typeString("Classes coming soon!")
                   .start();
                 }}
               />
             </Row>
             <div className = "cardRow">
-                <ClassCard name="Rainbow in a bottle" 
+              
+                {/* <ClassCard name="Rainbow in a bottle" 
                 img="RainbowInABottle"
                 text="Introduction into chemistry with a fun hands-on experiment"
                 desc="Rainbow in a Bottle will teach students about density and its importance in our daily lives. In addition to this, students will perform a hands-on experiment to witness density in action first-hand that they'll then be able to take home."
-                />
-                <ClassCard name="Python Mania" 
+                /> */}
+                {/* <ClassCard name="Python Mania" 
                 img="programmingpython"
                 text="A fun introductory class to python"
                 desc="Jump into the world of Python! Python is one of the most popular programming languages today, and you'll leave our class knowing key fundamentals. Code a cool game to show off to your friends!"
@@ -146,7 +147,7 @@ function Classes() {
                 img="enviroment2"
                 text="Understanding our role in the enviroment"
                 desc="In our BCA Flash Class, students will have the chance to learn about the environment more in depth and do exciting activities that help deepen students' understanding of the environment and the role we can play within it."
-                />
+                /> */}
             </div>
 
 

@@ -1,3 +1,7 @@
+body {font-family: 'Tilt Neon', sans-serif;}
+
+
+
 .text_and_image{
     display: flex;
 }
@@ -21,6 +25,11 @@
     align-self: center;
     font-size: 4rem;
     font-weight: bold;
+
+    text-transform: uppercase;
+	background: linear-gradient(to right, #F52977,#0091AD);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .grid {
@@ -68,10 +77,9 @@
     align-self: center;
     text-align: center;
     font-size: 1.85rem;
-    max-height: 15vh;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-bottom: 40rem;
+    /* max-height: 15vh; */
+    padding: 1.5rem;
+    /* padding-bottom: 40rem; */
 }
 
 #answ2 {
@@ -84,6 +92,24 @@
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 2.25rem;
+
+    /* background: linear-gradient(90deg, #F52977,#0091AD);
+    text-align: center;
+    padding: 15px;
+    border-radius: 75px;
+    margin-bottom: 75px;
+    height: 100px; */
+
+}
+
+.gradientBg {
+    background: linear-gradient(90deg, #F52977,#0091AD);
+    text-align: center;
+    padding: 15px !important;
+    border-radius: 75px;
+    margin-bottom: 75px;
+    /* height: 450px;
+    margin: 45px; */
 }
 
 .image_col {
@@ -125,7 +151,7 @@
     width: 100%;
 }
 
-.registerButton {
+/* .registerButton {
     display:flex;
     width: 10rem !important;
     height: fit-content;
@@ -135,6 +161,19 @@
     background-color: #af1b1b !important;
     border: #af1b1b !important;
     align-items: center;
+} */
+
+.registerButton {
+    background-color: #d39aff;
+    border-radius: 10px;
+    transition: .35s all;
+    margin: 1px;
+    width: 200px !important;
+}
+
+.registerButton:hover {
+    cursor: pointer;
+    background-color: #9d6dc1;
 }
 
 .sponsors-row {
