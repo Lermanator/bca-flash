@@ -105,7 +105,7 @@ function EventRow() {
         <Row className="boardRow">
             <h1>Directors of Event</h1>
             <DirectorCard img="../sofiya.JPG" firstName = "Sofiya" lastName = "Doroshenko" desc = "Hello! My name is Sofiya Doroshenko; I am a senior in the academy for medical science and technology (AMST). I am looking forward to working with all of our amazing board members and making this the best BCA Flash event ever!" />
-            <DirectorCard img="../dishakalia.png" firstName = "Disha" lastName = "Kalia" desc = "Hi everyone, my name is Disha Kalia, and I'm a senior in the Academy for Engineering and Design Technology (AEDT). I previously taught the Astronomy and Space Exploration class, and am so excited to help run the event this year!"/>
+            <DirectorCard img="../dishaKalia.png" firstName = "Disha" lastName = "Kalia" desc = "Hi everyone, my name is Disha Kalia, and I'm a senior in the Academy for Engineering and Design Technology (AEDT). I previously taught the Astronomy and Space Exploration class, and am so excited to help run the event this year!"/>
         </Row>
     )
 
