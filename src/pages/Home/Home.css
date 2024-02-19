@@ -1,6 +1,9 @@
 body {font-family: 'Tilt Neon', sans-serif;}
 
-
+p {
+    color: white;
+    font-size: 30px;
+}
 
 .text_and_image{
     display: flex;
@@ -73,13 +76,14 @@ body {font-family: 'Tilt Neon', sans-serif;}
     padding-top: 1rem;
 }
 
-.answer {
+#answer {
     align-self: center;
     text-align: center;
     font-size: 1.85rem;
     /* max-height: 15vh; */
-    padding: 1.5rem;
+    padding: 35px;
     /* padding-bottom: 40rem; */
+    height: 750px !important;
 }
 
 #answ2 {
@@ -111,6 +115,41 @@ body {font-family: 'Tilt Neon', sans-serif;}
     /* height: 450px;
     margin: 45px; */
 }
+
+.gradientBg1 {
+    background: linear-gradient(90deg, #F52977,#E462BB);
+    text-align: center;
+    padding: 45px !important;
+    border-radius: 75px;
+    margin-bottom: 75px;
+    /* height: 450px;
+    margin: 45px; */
+}
+
+.gradientBg2 {
+    background: linear-gradient(90deg, #E462BB,#6A96D6);
+    text-align: center;
+    padding: 45px !important;
+    border-radius: 75px;
+    margin-bottom: 75px;
+    height: 350px !important;
+    margin: 45px;
+}
+
+.gradientBg3 {
+    background: linear-gradient(90deg, #6A96D6,#0091AD);
+    text-align: center;
+    padding: 15px !important;
+    border-radius: 75px;
+    margin-bottom: 75px;
+    /* height: 450px;
+    margin: 45px; */
+}
+
+
+
+
+
 
 .image_col {
     padding-top: 1.5rem;
@@ -168,7 +207,8 @@ body {font-family: 'Tilt Neon', sans-serif;}
     border-radius: 10px;
     transition: .35s all;
     margin: 1px;
-    width: 200px !important;
+    width: 50px !important;
+    padding: 5px;
 }
 
 .registerButton:hover {

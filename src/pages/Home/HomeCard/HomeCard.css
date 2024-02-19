@@ -1,0 +1,72 @@
+
+.card {
+    position: relative;
+    height: 400px !important;
+    width: px !important;
+    text-align: left;
+    box-shadow: 0px 0px;
+    padding: 7px;
+    margin : 25px;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: black;
+    transition: .35s all;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    box-shadow: 15px 15px #2a2727;
+    transform: translateY(-15px);
+}
+
+button {
+    background-color: #d39aff;
+    border-radius: 10px;
+    transition: .35s all;
+    margin: 1px;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #9d6dc1;
+}
+
+.card .face.front {
+    color: black;
+    height: 335px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center !important;
+}
+
+
+/* .card .face.back {
+    background-color: #131212;
+    color: white;
+    height: 345px;
+    width: 260px;
+    border-radius: 10px;
+    height: 360px;
+} */
+
+.boardMemberName {
+    margin-top: 285px;
+}
+
+.card .face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+h5 {
+    color: #8f63b0;
+    margin-top: 30px;
+}
+
+h6 {
+    line-height: 1.5;
+    padding: 15px;
+}
