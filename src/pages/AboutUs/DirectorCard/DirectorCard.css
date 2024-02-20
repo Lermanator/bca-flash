@@ -8,8 +8,8 @@ img {
 
 .card {
     position: relative;
-    height: 380px;
-    width: 280px;
+    height: 380px !important;
+    width: 280px !important;
     text-align: left;
     box-shadow: 0px 0px;
     padding: 7px;

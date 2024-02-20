@@ -23,82 +23,10 @@ function AboutUs() {
         <PublicRelationsRow />
         <SpaceRow />
 
-        {/* <Row className="row">
-            <Card />
-            <Card />
-            <Card />
-        </Row> */}
-        {/* <Row className="image_and_text">
-            <Row className="headshots">
-                <Image src="../aitakubo.png" className="rounded-5 headshot"/>
-                <Image src="../lea.png" className="rounded-5 headshot"/>
-                <Image src="../alexisoh.png" className="rounded-5 headshot"/>
-            </Row>
-            <Row className="titles">
-                <div className="caption"><b>Ai Takubo</b><br/><i>Co-Director of BCA Flash</i></div>
-                <div className="caption"><b>Lea Smolyanskiy</b><br/><i>Co-Director of BCA Flash</i></div>
-                <div className="caption"><b>Alexis Oh</b><br/><i>Director of Classes</i></div>
-            </Row>
-        </Row>
-
-        <Row className="image_and_text top-pad">
-            <Row className="headshots">
-                <Image src="../elainenam.png" className="rounded-5 headshot"/>
-                <Image src="../ellaerlich.png" className="rounded-5 headshot"/>
-                <Image src="../genevive.png" className="rounded-5 headshot"/>
-            </Row>
-            <Row className="titles">
-                <div className="caption"><b>Elaine Nam</b><br/><i>Director of Classes</i></div>
-                <div className="caption"><b>Ella Ehrlich</b><br/><i>Director of Classes</i></div>
-                <div className="caption"><b>Genevieve Simmons</b><br/><i>Director of Public Relations</i></div>
-            </Row>
-        </Row>
-        <Row className="image_and_text top-pad">
-            <Row className="headshots">
-                <Image src="../emmalau.png" className="rounded-5 headshot"/>
-                <Image src="../sofiya.png" className="rounded-5 headshot"/>
-                <Image src="../keira.png" className="rounded-5 headshot"/>
-            </Row>
-            <Row className="titles bottom-pad">
-                <div className="caption"><b>Emma Lau</b><br/><i>Director of Volunteers</i></div>
-                <div className="caption"><b>Sofiya Doroshenko</b><br/><i>Director of Volunteers</i></div>
-                <div className="caption"><b>Keira Tellado</b><br/><i>Director of Finances</i></div>
-            </Row>
-        </Row> */}
-        {/* </Container> */}
       </div>
     );
 }
 
-// function Card(props) {
-//     const [activeContent, setActiveContent] = useState(1);
-
-//     const handleChangeContent = () => {
-//         setActiveContent(activeContent == 1 ? 2 : 1);
-//     }
-
-//     return (
-//         <div className="card">
-
-//             {activeContent == 1 && (
-//             <div className="face front">
-//                 <img src={props.img}/>
-//                 <h5 className="boardMemberName">{props.firstName + " " + props.lastName}</h5>
-//                 <button onClick={handleChangeContent} onclassName="aboutBoardMember">{"About " + props.firstName}</button>
-//             </div>
-//             )}
-
-//             {activeContent == 2 && (
-//             <div className="face back">
-//                 <h5>{"About " + props.firstName}</h5>
-//                 <h6>{props.desc}</h6>
-//                 <button onClick={handleChangeContent} className="aboutBoardMember">Return to Main</button>
-//             </div>
-//             )}
-
-//         </div>
-//     )
-// }
 
 function EventRow() {
     return (

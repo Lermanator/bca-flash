@@ -2,7 +2,7 @@ import "./HomeCard.css";
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 
-function HomeCard(props) {
+function HomeCardModified(props) {
 
     return (
         <div className="homeCard">
@@ -14,6 +14,11 @@ function HomeCard(props) {
                     <Link to={props.link}>
                         <button>{props.btn}</button>
                     </Link>
+                    <br></br>
+                    <br></br>
+                    <Link to={props.link2}>
+                        <button>{props.btn2}</button>
+                    </Link>
                 </div>
             )}
 
@@ -22,4 +27,4 @@ function HomeCard(props) {
 }
 
 
-export default HomeCard;
+export default HomeCardModified;
