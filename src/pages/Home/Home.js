@@ -30,11 +30,9 @@ function About() {
             <HomeCard question="What is BCA Flash?" answer="BCA Flash is a student-led organization hosting an educational event open to all middle school students in Bergen County. It is an amazing opportunity for kids to gain exposure to the unique learning experience exclusively at Bergen County Academies from current students themselves.
                 Each class is led by a BCA student, who is eager to share their knowledge and passion. "></HomeCard>
 
-            <HomeCard question="What is BCA Flash" answer="BCA Flash is a student-led organization hosting an educational event open to all middle school students in Bergen County. It is an amazing opportunity for kids to gain exposure to the unique learning experience exclusively at Bergen County Academies from current students themselves.
-                Each class is led by a BCA student, who is eager to share their knowledge and passion. "></HomeCard>
+            <HomeCard question="When and Where is BCA Flash?" answer="BCA Flash is hosted at Bergen County Academies in Hackensack. The event takes place on [insert date]. For more information about the event schedule, click here."></HomeCard>
 
-            <HomeCard question="What is BCA Flash?" answer="BCA Flash is a student-led organization hosting an educational event open to all middle school students in Bergen County. It is an amazing opportunity for kids to gain exposure to the unique learning experience exclusively at Bergen County Academies from current students themselves.
-                Each class is led by a BCA student, who is eager to share their knowledge and passion. "></HomeCard>
+            <HomeCard question="How can I sign up?" answer="Click the Register button at the top of the banner, or click here."></HomeCard>
 
             {/* <div className="gradientBg1" id="answer">
                 BCA Flash is a student-led organization hosting an educational event open to all middle school students in Bergen County. It is an amazing opportunity for kids to gain exposure to the unique learning experience exclusively at Bergen County Academies from current students themselves.
