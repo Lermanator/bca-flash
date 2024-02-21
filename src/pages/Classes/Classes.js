@@ -21,18 +21,17 @@ function Classes() {
                 <h1 className="header">Explore Our Classes</h1>
             </Row>
 
-
             <Fade top distance="5%">
               <Row className="classRow">
                 <h1>Computer Science</h1>
                 <ClassCard className="Code a Game!" desc="Loreum iseps"></ClassCard>
-
               </Row>
 
               <Row className="classRow">
                 <h1>Chemistry</h1>
                 <ClassCard className="Rainbow in a Bottle" desc="Loreum iseps"></ClassCard>
               </Row>
+              
             </Fade>
 
 
