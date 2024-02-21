@@ -10,7 +10,7 @@ function Schedule() {
   return (
     <div className="Classes">
         <Container fluid className="classesContainer">
-            <Row className="classRow">
+            <Row className="classRowHeader">
               <Typewriter
                 onInit={(typewriter) => { 
                   typewriter
