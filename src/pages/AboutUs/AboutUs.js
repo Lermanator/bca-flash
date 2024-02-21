@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import {Container, Row, Image} from 'react-bootstrap';
+import Fade from 'react-reveal/Fade';
+
 
 function AboutUs() {
     return (
@@ -15,13 +17,15 @@ function AboutUs() {
             <h1 className="header">Board Of Directors</h1>
         </Row>
 
-        <EventRow />
-        <ClassesRow />
-        <OperationsRow />
-        <FinanceRow />
-        <TechnologyRow />
-        <PublicRelationsRow />
-        <SpaceRow />
+        <Fade top distance="5%">
+            <EventRow />
+            <ClassesRow />
+            <OperationsRow />
+            <FinanceRow />
+            <TechnologyRow />
+            <PublicRelationsRow />
+            <SpaceRow />
+        </Fade>
 
       </div>
     );
