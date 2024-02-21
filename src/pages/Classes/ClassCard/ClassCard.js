@@ -1,32 +1,34 @@
-import './ClassCard.css';
-
+import "./ClassCard.css";
 import React, {useState} from 'react';
-import { Card, Button, Modal } from 'react-bootstrap';
 
-export default function ClassCard(info) {
-  const [show, setShow] = useState(false);
+function ClassCard(props) {
+    const [activeContent, setActiveContent] = useState(1);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+    const handleChangeContent = () => {
+        setActiveContent(activeContent == 1 ? 2 : 1);
+    }
 
+    return (
+        <div className="card">
 
+            {activeContent == 1 && (
+                <div className="face front">
+                    <img src={props.img}/>
+                    <h5 className="boardMemberName">{props.className}</h5>
+                    <button onClick={handleChangeContent} onclassName="aboutBoardMember">{"Learn More"}</button>
+                </div>
+            )}
 
-  return (
-    <Card className={info.class}>
-      <Card.Img variant="top" className="cardImg" src= {"../" + info.img + ".png"}/>
-      <Card.Body>
-        <Card.Title>{info.name}</Card.Title>
-        <Card.Text>
-          {info.text}
-        </Card.Text>
-        <Modal show={show} onHide={handleClose} centered dialogClassName="my-modal">
-          <Modal.Header closeButton>
-            <Modal.Title className='ms-auto'>{info.name}</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>{info.desc}</Modal.Body>
-        </Modal>
-        <Button variant="primary" onClick={handleShow}>See More</Button>
-      </Card.Body>
-    </Card>
-  );
+            {activeContent == 2 && (
+                <div className="face back">
+                    <h5>{props.className}</h5>
+                    <h6>{props.desc}</h6>
+                    <button onClick={handleChangeContent} className="aboutBoardMember">Return to Main</button>
+                </div>
+            )}
+
+        </div>
+    )
 }
+
+export default ClassCard;

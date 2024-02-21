@@ -26,7 +26,7 @@ function Classes() {
               />
             </Row>
             <div className = "cardRow">
-              
+                <ClassCard className="Code a Game!" desc="Loreum iseps"></ClassCard>
                 {/* <ClassCard name="Rainbow in a bottle" 
                 img="RainbowInABottle"
                 text="Introduction into chemistry with a fun hands-on experiment"
