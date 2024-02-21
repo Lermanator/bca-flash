@@ -87,7 +87,7 @@ function TechnologyRow() {
 
 function PublicRelationsRow() {
     return (
-        <Row className="boardRow" id="publicRelations">
+        <Row className="boardRow">
             <h1>Directors of Public Relations</h1>
             <DirectorCard img="../sueahchoi.png" firstName = "Sue-Ah" lastName = "Choi" desc = "Hey everyone! My name is Sue-Ah Choi and I am a current junior in AVPA-V. It's great to be with everyone at Flash this year!"/>
             <DirectorCard img="../michelle.jpeg" firstName = "Michelle" lastName = "Rozenfeld" desc = "Hi everyone! I’m Michelle Rozenfeld; a junior in the Culinary and Hospitality academy (ACAHA). I can’t wait to meet you all at BCA Flash 2024! "/>

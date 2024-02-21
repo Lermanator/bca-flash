@@ -17,27 +17,35 @@ function Classes() {
   return (
     <div className="Classes">
         <Container fluid className="classesContainer">
+          
             <Row className="header_row">
                 <h1 className="header">Explore Our Classes</h1>
             </Row>
 
             <Fade top distance="5%">
+
               <Row className="classRow">
                 <h1>Computer Science</h1>
-                <ClassCard className="Code a Game!" desc="Loreum iseps"></ClassCard>
+                <ClassCard className="Code a Game!" desc="coding a game fr"></ClassCard>
               </Row>
 
               <Row className="classRow">
                 <h1>Chemistry</h1>
-                <ClassCard className="Rainbow in a Bottle" desc="Loreum iseps"></ClassCard>
+                <ClassCard className="Rainbow in a Bottle" desc="rainbowing a bottle"></ClassCard>
               </Row>
-              
+
             </Fade>
+
+            <SpaceRow />
 
 
         </Container>
     </div>
   );
+}
+
+function SpaceRow() {
+  return (<button id="spaceBtn"></button>)
 }
 
 export default Classes;
