@@ -22,7 +22,7 @@ function Classes() {
                 <h1 className="header">Explore Our Classes</h1>
             </Row>
 
-            <Fade top distance="5%">
+            <Fade top distance="6%">
 
               <Row className="classRow">
                 <h1>Computer Science</h1>
@@ -30,7 +30,7 @@ function Classes() {
               </Row>
 
               <Row className="classRow">
-                <h1>Chemistry</h1>
+                <h1>Science</h1>
                 <ClassCard className="Rainbow in a Bottle" desc="rainbowing a bottle"></ClassCard>
               </Row>
 

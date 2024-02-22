@@ -17,7 +17,7 @@ function AboutUs() {
             <h1 className="header">Board Of Directors</h1>
         </Row>
 
-        <Fade top distance="5%">
+        <Fade top distance="6%">
             <EventRow />
             <ClassesRow />
             <OperationsRow />

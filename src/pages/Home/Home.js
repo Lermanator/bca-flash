@@ -16,7 +16,7 @@ function About() {
             {/* <button className="registerBtn" href="https://tinyurl.com/registerbcaflash">Register Now</button> */}
           </Row>
           
-          <Fade top distance="5%">
+          <Fade top distance="6%">
 
             <Container>
               <Row>
