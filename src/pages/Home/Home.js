@@ -6,6 +6,8 @@ import HomeCard from './HomeCard/HomeCard';
 import HomeCardModified from './HomeCard/HomeCardModified';
 import Fade from 'react-reveal/Fade';
 
+
+
 function About() {
   return (
     <div className="About">
@@ -15,6 +17,7 @@ function About() {
             <br/>
             {/* <button className="registerBtn" href="https://tinyurl.com/registerbcaflash">Register Now</button> */}
           </Row>
+          
           
           <Fade top distance="6%">
 
