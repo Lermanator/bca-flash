@@ -1,11 +1,12 @@
 import './Home.css';
+import './HomeSlideshow/HomeSlideshow.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import HomeCard from './HomeCard/HomeCard';
 import HomeCardModified from './HomeCard/HomeCardModified';
 import Fade from 'react-reveal/Fade';
-
+import HomeSlideshow from './HomeSlideshow/HomeSlideshow';
 
 
 function About() {
@@ -15,11 +16,35 @@ function About() {
           <Row className="header_row">
             <div className="header">Welcome to BCA Flash 2024!</div>
             <br/>
+            <HomeSlideshow></HomeSlideshow>
+
             {/* <button className="registerBtn" href="https://tinyurl.com/registerbcaflash">Register Now</button> */}
           </Row>
           
           
           <Fade top distance="6%">
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
 
             <Container>
               <Row>
