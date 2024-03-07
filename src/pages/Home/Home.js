@@ -44,6 +44,12 @@ function About() {
 <br></br>
 <br></br>
 <br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
 
             <Container>
@@ -54,7 +60,7 @@ function About() {
                 </Col>
 
                 <Col>
-                <HomeCardModified question="When and where is BCA Flash?" answer="BCA Flash is hosted at  the Bergen County Academies in Hackensack, NJ. The event takes place on [insert date]."
+                <HomeCardModified question="When and where is BCA Flash?" answer="BCA Flash is hosted at  the Bergen County Academies in Hackensack, NJ. The event takes place on April 14th, 2024."
                 btn="View Schedule" link="/schedule" btn2 = "BCA Map View" link2="https://www.google.com/maps/dir//200+Hackensack+Ave,+Hackensack,+NJ+07601/@40.9023266,-74.1168286,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c2fa74ecafb78d:0x56dae96ee3b758b!2m2!1d-74.0344278!2d40.9023559?entry=ttu"></HomeCardModified>
                 </Col>
 
