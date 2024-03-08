@@ -1,6 +1,6 @@
-.section {
+/* .section {
   margin: 1rem auto;
-}
+} */
 
 @media screen and (min-width: 992px) {
   .section {
@@ -9,13 +9,14 @@
 }
 
 .section-center {
-  /* margin changes the position of the photo */
-  
-  
-  /* width: 900vm; */
-  /* height: 250px; */
-  /* max-width: 500px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
   position: relative;
+  margin-left: 0px !important;
+  padding: 0px !important;
+  
 }
 
 .person-img {
@@ -30,6 +31,7 @@ article {
   height: 50%;
   opacity: 0;
   transition: var(--transition);
+  
 }
 
 article.activeSlide {

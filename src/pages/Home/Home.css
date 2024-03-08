@@ -10,10 +10,11 @@ p {
 }
 
 .slideshow {
+
     display: flex;
     justify-content: center;
-    /* text-align: center;
-    margin: auto; */
+    align-items: center !important;
+    /* margin-left: 0px !important; */
 }
 
 .header_row {

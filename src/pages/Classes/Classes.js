@@ -44,8 +44,6 @@ function Classes() {
             </Fade>
 
             <SpaceRow />
-
-
         </Container>
     </div>
   );
