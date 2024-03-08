@@ -38,23 +38,50 @@ function Classes() {
 
               <Row className="classRow">
                 <h1>Science</h1>
-                <ClassCard className="Rainbow in a Bottle" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Physics" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Lab Fundamentals" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Chemistry Basics" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Astronomy and Space Exploration" desc="rainbowing a bottle"></ClassCard>
+              </Row>
+
+              <Row className="classRow">
+                <h1>Business</h1>
+                <ClassCard className="Marketing" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Business Ethics" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Coding in Finance" desc="rainbowing a bottle"></ClassCard>
+
               </Row>
 
               <Row className="classRow">
                 <h1>Medical</h1>
+                <ClassCard className="Orthopedics" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Neurology" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Medical Debate Class" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Life Threatening Situations" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Genetics" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Anatomy of the Human Brain" desc="rainbowing a bottle"></ClassCard>
+
               </Row>
 
               <Row className="classRow">
                 <h1>Art/Theater</h1>
+                <ClassCard className="Intro to Character Design" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Dance/Theater Basics" desc="rainbowing a bottle"></ClassCard>
+
               </Row>
 
               <Row className="classRow">
-                <h1>Math</h1>
+                <h1>Math/Engineering</h1>
+                <ClassCard className="Topology, Map Coloring and the 4 Color Theorem" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="Arduino, Breadboarding, and Soldering" desc="rainbowing a bottle"></ClassCard>
+                <ClassCard className="CAD, Fusion 360, Modeling, and Product Design" desc="rainbowing a bottle"></ClassCard>
+
               </Row>
 
               <Row className="classRow">
                 <h1>Culinary</h1>
+                <ClassCard className="Culinary Basics" desc="NA"></ClassCard>
+                <ClassCard className="Cupcake Decorating" desc="NA"></ClassCard>
               </Row>
 
             </Fade>
