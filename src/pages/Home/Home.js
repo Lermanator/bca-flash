@@ -16,7 +16,10 @@ function About() {
           <Row className="header_row">
             <div className="header">Welcome to BCA Flash 2024!</div>
             <br/>
-            <HomeSlideshow></HomeSlideshow>
+
+            <div className="slideshow">
+              <HomeSlideshow></HomeSlideshow>
+            </div>
 
             {/* <button className="registerBtn" href="https://tinyurl.com/registerbcaflash">Register Now</button> */}
           </Row>

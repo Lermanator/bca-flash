@@ -22,7 +22,7 @@ function ClassCard(props) {
             {activeContent == 2 && (
                 <div className="face back">
                     <h5>{props.className}</h5>
-                    <h6>{props.desc}</h6>
+                    <h6 id="smallText">{props.desc}</h6>
                     <button onClick={handleChangeContent} className="aboutBoardMember">Return to Main</button>
                 </div>
             )}

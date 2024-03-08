@@ -1,24 +1,29 @@
 .section {
   margin: 1rem auto;
 }
+
 @media screen and (min-width: 992px) {
   .section {
     width: 195vw;
   }
 }
+
 .section-center {
   /* margin changes the position of the photo */
-  margin: 140px;
+  
+  
   /* width: 900vm; */
   /* height: 250px; */
   /* max-width: 500px; */
   position: relative;
 }
+
 .person-img {
   /* width changes the width */
   width: 1250px;
   height: 550px;
 }
+
 article {
   position: absolute;
   width: 50%;
@@ -26,6 +31,7 @@ article {
   opacity: 0;
   transition: var(--transition);
 }
+
 article.activeSlide {
   opacity: 1;
   transform: translateX(0);

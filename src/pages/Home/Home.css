@@ -9,6 +9,13 @@ p {
     display: flex;
 }
 
+.slideshow {
+    display: flex;
+    justify-content: center;
+    /* text-align: center;
+    margin: auto; */
+}
+
 .header_row {
     height: 12rem;
     display:flex;
