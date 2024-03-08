@@ -41,6 +41,22 @@ function Classes() {
                 <ClassCard className="Rainbow in a Bottle" desc="rainbowing a bottle"></ClassCard>
               </Row>
 
+              <Row className="classRow">
+                <h1>Medical</h1>
+              </Row>
+
+              <Row className="classRow">
+                <h1>Art/Theater</h1>
+              </Row>
+
+              <Row className="classRow">
+                <h1>Math</h1>
+              </Row>
+
+              <Row className="classRow">
+                <h1>Culinary</h1>
+              </Row>
+
             </Fade>
 
             <SpaceRow />
