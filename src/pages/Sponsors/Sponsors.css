@@ -1,0 +1,53 @@
+.header {
+    text-align: center;
+    align-self: center;
+    font-size: 4rem;
+    font-weight: bold;
+
+    text-transform: uppercase;
+	background: linear-gradient(to right, #F52977,#0091AD);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.header_row {
+    height: 12rem;
+    display:flex;
+    justify-content: center;
+}
+
+.sponsorRow {
+    margin: auto;
+    background: linear-gradient(90deg, #F52977,#0091AD);
+    text-align: center;
+    padding: 50px;
+    width: 1250px;
+    border-radius: 75px;
+    margin-bottom: 75px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    margin: 20px !important;
+}
+
+
+img {
+    /* object-fit: cover; */
+    /* float: left; */
+    width: 255px;
+    height: 270px;
+    border-radius: 10px;
+    /* margin: 10px !important; */
+    border-radius: 50%;
+}
+
+.sponsorImg {
+    width: 473px !important;
+    height: 100px !important;
+    margin: 30px;
+}

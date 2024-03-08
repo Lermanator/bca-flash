@@ -13,7 +13,7 @@ function DirectorCard(props) {
 
             {activeContent == 1 && (
                 <div className="face front">
-                    <img src={props.img}/>
+                    <img className="directorImg" src={props.img}/>
                     <h5 className="boardMemberName">{props.firstName + " " + props.lastName}</h5>
                     <button onClick={handleChangeContent} onclassName="aboutBoardMember">{"About " + props.firstName}</button>
                 </div>

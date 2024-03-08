@@ -32,7 +32,7 @@ function Classes() {
                 <ClassCard className="Python Programming" desc="Students will learn the basics of python programming
                 by codng a game of Rock, Paper, Scissors. After making this game, they will also learn to code another game
                 based on their skill level. These games will have the students break up into seperate groups to create different games."></ClassCard>
-                <ClassCard className="Machine Learning Basic" desc="Students will learn about three different types of machine learning, then
+                <ClassCard className="Machine Learning Basics" desc="Students will learn about three different types of machine learning, then
                 implement what they learn to create an AI model. Students will learn how to create a K-Nearest Neighbor model, as well as learning how to upload a dataset."></ClassCard>
               </Row>
 
@@ -60,8 +60,6 @@ function Classes() {
             </Fade>
 
             <SpaceRow />
-
-
         </Container>
     </div>
   );

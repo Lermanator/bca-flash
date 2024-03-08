@@ -9,6 +9,14 @@ p {
     display: flex;
 }
 
+.slideshow {
+
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    /* margin-left: 0px !important; */
+}
+
 .header_row {
     height: 12rem;
     display:flex;

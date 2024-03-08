@@ -45,3 +45,17 @@
     }
 }
 
+.card .face.back {
+    background-color: #131212;
+    color: white;
+    height: 345px;
+    width: 260px;
+    border-radius: 10px;
+    height: 360px;
+}
+
+
+#smallText {
+    font-size: 15px;
+    line-height: 1.5;
+}
