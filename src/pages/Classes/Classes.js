@@ -38,9 +38,9 @@ function Classes() {
 
               <Row className="classRow">
                 <h1>Science</h1>
-                <ClassCard className="Physics" desc="Students will learn a variety of physics topics through different hands-on experiments. NA"></ClassCard>
-                <ClassCard className="Lab Fundamentals" desc="Students will learn a variety of chemistry topics and learn the scientific method used for experiments. Students will use what they learn to create their own lava lamp, which they can take home."></ClassCard>
-                <ClassCard className="Chemistry Basics" desc="Students will learn about the basics of chemistry through a hands-on experiment. Students will learn about various chemical reactions, then use what they learn to create a mini lemon volcano."></ClassCard>
+                <ClassCard img="../physics.png" className="Physics" desc="Students will learn a variety of physics topics through different hands-on experiments. NA"></ClassCard>
+                <ClassCard img="../labfundamentals.png" className="Lab Fundamentals" desc="Students will learn a variety of chemistry topics and learn the scientific method used for experiments. Students will use what they learn to create their own lava lamp, which they can take home."></ClassCard>
+                <ClassCard img="../chemistry.png" className="Chemistry Basics" desc="Students will learn about the basics of chemistry through a hands-on experiment. Students will learn about various chemical reactions, then use what they learn to create a mini lemon volcano."></ClassCard>
                 <ClassCard img="../astronomy.png" className="Astronomy and Space Exploration" desc="In this class, students will get to plan their own space exploration mission! Students will learn about what goes into planning a space mission, such as designing a spacesuit. Students will also get to create a constellation geoboard and share their love of astronomy with their classmates."></ClassCard>
               </Row>
 
@@ -53,7 +53,7 @@ function Classes() {
 
               <Row className="classRow">
                 <h1>Medical</h1>
-                <ClassCard className="Orthopedics" desc="Students will learn about the anatomy of the leg through a hands-on project. Working with clay, students will construct various bones in the leg while learning about their function."></ClassCard>
+                <ClassCard img="../orthopedics.png" className="Orthopedics" desc="Students will learn about the anatomy of the leg through a hands-on project. Working with clay, students will construct various bones in the leg while learning about their function."></ClassCard>
                 <ClassCard img="../neurology.png" className="Neurology" desc="Students will learn about different parts of the brain using modelling. After learning about each part of the brain, students will break off into small groups and use play-doh to model the different parts."></ClassCard>
                 <ClassCard img="../medicaldebate.png" className="Medical Debate Class" desc="Students will learn about the current biomedical debates and discuss their own thoughts about the topics. Students will be broken up into groups to take sides on the topic and research more about the science and ethics behind the topic. Students will learn different debate skills while also researching some of the biggest debates in modern medicine."></ClassCard>
                 <ClassCard img="../emergency.webp" className="Life Threatening Situations" desc="Students will learn how to handle life-threatening situations and learn to use real EMT/CPR equipment. They will learn about the different skills needed to handle these situations, as well as the ethical concerns about first-aid."></ClassCard>
