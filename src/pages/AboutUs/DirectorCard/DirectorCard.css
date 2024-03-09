@@ -41,7 +41,7 @@ button:hover {
 
 .card .face.front {
     color: black;
-    height: 335px;
+    height: 360px;
     width: 260px;
     border-radius: 10px;
 }
@@ -50,7 +50,7 @@ button:hover {
 .card .face.back {
     background-color: #131212;
     color: white;
-    height: 345px;
+    height: 360px;
     width: 260px;
     border-radius: 10px;
     height: 360px;
