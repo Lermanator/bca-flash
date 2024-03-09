@@ -29,16 +29,16 @@ function Classes() {
                 {/* cut down on some of the descriptions */}
                 <ClassCard className="Code a Game!" img ="../codeagame.png" desc="Students will code their own choose-your-own adventure game while learn how to use HTML and CSS. This class will teach students
                 about both the functionality and the design aspects of website development and will offer students a hands-on opportunity to learn more about coding."></ClassCard>
-                <ClassCard className="Python Programming" img ="../python.png" desc="Students will learn the basics of python programming
-                by coding a game of Rock, Paper, Scissors.
-                based on their skill level. These games will have the students break up into seperate groups to create different games."></ClassCard>
+                --<ClassCard className="Python Programming" img ="../python.png" desc="Students will learn the basics of python programming
+                by coding a game of Rock, Paper, Scissors. Afterwards, students will break up into small groups based on their skill levels to create different games."></ClassCard>
                 <ClassCard className="Machine Learning Basics" img ="../machinelearning.png" desc="Students will learn about three different types of machine learning, then
                 implement what they learn to create an AI model. Students will learn how to create a K-Nearest Neighbor model, as well as learning how to upload a dataset."></ClassCard>
               </Row>
 
               <Row className="classRow">
                 <h1>Science</h1>
-                <ClassCard className="Physics" img="../physics.png" desc="Students will learn a variety of physics topics through different hands-on experiments. NA"></ClassCard>
+                <ClassCard className="Physics" img="../physics.png" desc="Students will understand physics through different experiments that cover a wide range of fundamental topics, from general motion to resisting forces (focus on mechanics).
+                By the end of the lesson, students will have an appreciation for why physics is so important to our everyday lives."></ClassCard>
                 <ClassCard className="Lab Fundamentals" img="../labfundamentals.png" desc="Students will learn a variety of chemistry topics and learn the scientific method used for experiments. Students will use what they learn to create their own lava lamp, which they can take home."></ClassCard>
                 <ClassCard className="Chemistry Basics" img="../chemistry.png" desc="Students will learn about the basics of chemistry through a hands-on experiment. Students will learn about various chemical reactions, then use what they learn to create a mini lemon volcano."></ClassCard>
                 <ClassCard className="Astronomy and Space Exploration" img="../astronomy.png" desc="In this class, students will get to plan their own space exploration mission! Students will learn about what goes into planning a space mission, such as designing a spacesuit. Students will also get to create a constellation geoboard and share their love of astronomy with their classmates."></ClassCard>
@@ -82,7 +82,7 @@ function Classes() {
 
               <Row className="classRow">
                 <h1>Culinary</h1>
-                <ClassCard className="Culinary Basics" img="../culinary.png" desc="NA"></ClassCard>
+                <ClassCard className="Culinary Basics" img="../culinary.png" desc="Lesson Coming Soon"></ClassCard>
                 <ClassCard className="Cupcake Decorating" img="../cupcakedecorating.webp" desc="Students will learn different frosting and piping techniques as they make their own cupcakes.
                 At the end of the class, students will have time to eat their cupcakes, socialize with their classmates, and have a Q&A with BCA teachers."></ClassCard>
               </Row>
