@@ -29,7 +29,7 @@ function Classes() {
                 {/* cut down on some of the descriptions */}
                 <ClassCard className="Code a Game!" img ="../codeagame.png" desc="Students will code their own choose-your-own adventure game while learn how to use HTML and CSS. This class will teach students
                 about both the functionality and the design aspects of website development and will offer students a hands-on opportunity to learn more about coding."></ClassCard>
-                --<ClassCard className="Python Programming" img ="../python.png" desc="Students will learn the basics of python programming
+                <ClassCard className="Python Programming" img ="../python.png" desc="Students will learn the basics of python programming
                 by coding a game of Rock, Paper, Scissors. Afterwards, students will break up into small groups based on their skill levels to create different games."></ClassCard>
                 <ClassCard className="Machine Learning Basics" img ="../machinelearning.png" desc="Students will learn about three different types of machine learning, then
                 implement what they learn to create an AI model. Students will learn how to create a K-Nearest Neighbor model, as well as learning how to upload a dataset."></ClassCard>
