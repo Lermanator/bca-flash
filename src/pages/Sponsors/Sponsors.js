@@ -13,9 +13,7 @@ function Sponsors() {
                 <h2>Thank you to our sponsors for making BCA Flash possible!</h2>
             </Row>
 
-            <Row className="sponsorRow">
-                {/* <h1>Kumon of North Paramus</h1> */}
-                {/* style={{borderRadius: '25%'}}  */}
+            {/* <Row className="sponsorRow">
                 <img className="sponsorImg" src="../kumon.png"></img>
                 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
             </Row>
@@ -23,7 +21,7 @@ function Sponsors() {
             <img className="sponsorImg" src="../kumon1.png"></img>
             <img className="sponsorImg" src="../kumon1.png"></img>
             <img className="sponsorImg" src="../kumon1.png"></img>
-            <img className="sponsorImg" src="../kumon1.png"></img>
+            <img className="sponsorImg" src="../kumon1.png"></img> */}
         </Container>
 
     );
