@@ -75,7 +75,7 @@ function Classes() {
                 <ClassCard className="Topology, Map Coloring and the 4 Color Theorem" img="../topology.png" desc="Using a combination of math and art, students will learn the fundamental skills behind map-making and the 4-Color Theorem. The class consists of a variety of arts and crafts, ending with
                 students making their own map using origami."></ClassCard>
                 <ClassCard className="Arduino, Breadboarding, and Soldering" img="../arduino.webp" desc="Students will learn the basic commands for Arduino and use these skills to make patterns with LEDs. The students will also learn about soldering and will take home their own PCB."></ClassCard>
-                <ClassCard className="CAD, Fusion 360, Modeling, and Product Design" img="../cadfusion360modeling.jpg" desc="Students will learn to use softwares to create 3D models. Using what they learn, they will apply their skills to develop their own novel product idea."></ClassCard>
+                <ClassCard className="CAD, Fusion 360, Modeling, and Product Design" img="../cadfusion360modeling.png" desc="Students will learn to use softwares to create 3D models. Using what they learn, they will apply their skills to develop their own novel product idea."></ClassCard>
 
               </Row>
 
