@@ -15,11 +15,11 @@ function About() {
         <Container fluid>
           <Row className="header_row">
             <div className="header">Welcome to BCA Flash 2024!</div>
-            <br/>
+            {/* <br/> */}
 
-            <div className="slideshow">
+            {/* <div className="slideshow">
               <HomeSlideshow></HomeSlideshow>
-            </div>
+            </div> */}
 
             {/* <button className="registerBtn" href="https://tinyurl.com/registerbcaflash">Register Now</button> */}
           </Row>
@@ -27,6 +27,7 @@ function About() {
           
           <Fade top distance="6%">
 
+{/* <br></br>
 <br></br>
 <br></br>
 <br></br>
@@ -51,8 +52,7 @@ function About() {
 <br></br>
 <br></br>
 <br></br>
-<br></br>
-<br></br>
+<br></br> */}
 
 
             <Container>
