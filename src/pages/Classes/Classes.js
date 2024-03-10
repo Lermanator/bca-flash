@@ -11,8 +11,6 @@ import { Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 
-
-
 function Classes() {
   return (
     <div className="Classes">
