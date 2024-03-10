@@ -13,8 +13,8 @@ import Schedule from "../Schedule/Schedule"
 export default function App() {
   return (
     <div className="wrapper">
-      <NavBar/>
       <BrowserRouter className="pagebody">
+        <NavBar/>
         <Routes>
           <Route exact path = "/" element ={<Home/>}/>
           <Route path = "/sponsors" element={<Sponsors/>}/>
@@ -26,6 +26,9 @@ export default function App() {
     </div>
   );
 }
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App/>);
