@@ -68,7 +68,7 @@ function About() {
                 </Col>
 
                 <Col>
-                <HomeCard question="How can I sign up?" answer="Click on Register in the navigation bar, or click below." btn="Register Now!" link="https://forms.gle/F9JT15c29SrDfRuTA"></HomeCard>
+                  <HomeCard question="How can I sign up?" answer="Click on Register in the navigation bar, or click below." btn="Register Now!" link="https://forms.gle/F9JT15c29SrDfRuTA"></HomeCard>
                 </Col>
 
               </Row>
