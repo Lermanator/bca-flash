@@ -10,8 +10,8 @@ function NavBar() {
     <Navbar className="navbar-color" expand="lg" variant="dark">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Navbar className="me-auto">
-                {/* <img 
+            <Nav className="me-auto">
+              {/* <img 
                     src="../logored.png"
                     id="logo"
                 /> */}
@@ -21,7 +21,7 @@ function NavBar() {
               <Nav.Link href="/aboutus" className="nav-links">About Us</Nav.Link>
               <Nav.Link href="/schedule" className="nav-links">Schedule</Nav.Link>
               <Nav.Link href="https://forms.gle/F9JT15c29SrDfRuTA" target="_blank" className="nav-links">Register</Nav.Link>
-            </Navbar>
+            </Nav>
           </Navbar.Collapse>
     </Navbar>
 
