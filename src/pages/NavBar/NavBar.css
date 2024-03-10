@@ -3,12 +3,6 @@
     justify-content: right;
 }
 
-.me-auto {
-    font-size: 120%;
-    display: flex;
-    
-}
-
 .nav-link {
     color: #E8E8E8;
     font-family: sans-serif;
@@ -16,10 +10,6 @@
     align-content: center;
     text-align: center;
     vertical-align: middle;
-}
-
-.nav-links:hover {
-    color: rgb(148, 148, 145);
 }
 
 .navbar {

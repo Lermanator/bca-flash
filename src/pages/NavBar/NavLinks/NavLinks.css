@@ -1,0 +1,9 @@
+.me-auto {
+    font-size: 120%;
+    display: flex;
+    
+}
+
+.nav-links:hover {
+    color: rgb(148, 148, 145);
+}
