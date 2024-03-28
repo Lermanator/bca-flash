@@ -46,8 +46,23 @@ img {
     border-radius: 50%;
 }
 
-.sponsorImg {
+.InserraSponsorImg {
+    width: 800px !important;
+    height: 200px !important;
+    margin: 30px;
+}
+.ShackSponsorImg {
+    width: 500px !important;
+    height: 295px !important;
+    margin: 30px;
+}
+.KumonSponsorImg {
     width: 473px !important;
     height: 100px !important;
     margin: 30px;
+}
+.bottomSponsorImg {
+    width: 550px !important;
+    height: 250px !important;
+    margin: 20px;
 }

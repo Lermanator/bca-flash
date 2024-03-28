@@ -13,15 +13,26 @@ function Sponsors() {
                 <h2>Thank you to our sponsors for making BCA Flash possible!</h2>
             </Row>
 
-            {/* <Row className="sponsorRow">
-                <img className="sponsorImg" src="../kumon.png"></img>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <Row className="sponsorRow">
+                <img className="InserraSponsorImg" src="../inserra.jpg"></img>
+                <h3>Inserra Supermarkets a family-owned and operated company where third and fourth generation family members continue the family tradition of caring for our communities and all 25 of our stores provide unparalleled professional service, locally sourced specialty items, farm to table fresh produce, dairy, meats and poultry,  and the largest selection of brands at the best prices in the marketplace. And as one of the region’s largest employers, our family-owned chain provides full- and part-time positions to more than 5000 associates. Our stores are run at the local level and each of our stores is a neighborhood supermarket that serves the needs of the local community not a corporate office. The family ownership business model of families serving families is a ShopRite tradition and enables our family to meet the needs of the neighborhoods we serve with products, services and charitable support.</h3>
+            </Row>
+            <Row className="sponsorRow">
+                <img className="ShackSponsorImg" src="../tutor-shack.jpg"></img>
+                <h3>The Tutor Shack has the best tutors around! We know our subject matter inside and out, and we communicate that knowledge with caring and patience to every one of our students. We consider our students and their families to be part of OUR family. And that attitude is what sets us apart from other tutoring companies. It’s why we go the extra mile for our kids. It’s why our kids respond by going the extra mile for us. And it’s why we routinely see dramatic improvements in our students’ performance when they study here, no matter WHAT they study here. Whether the subject is Algebra II, AP Physics, or the SAT/ACT, the Tutor Shack is truly in a class by itself!</h3>
+            </Row>
+            <Row className="sponsorRow">
+                <img className="KumonSponsorImg" src="../kumon1.png"></img>
+                <h3>Kumon is the world’s largest after-school math and reading program. Kumon Students progress independently through a carefully crafted, worksheet-based math and reading curriculum. Regardless of their age, students move at their own pace, which means many children end up studying far beyond their school grade level. While Kumon Instructors are there to lesson plan, evaluate, and guide your child, students ultimately develop self-learning skills, learning primarily on their own.</h3>
             </Row>
 
-            <img className="sponsorImg" src="../kumon1.png"></img>
-            <img className="sponsorImg" src="../kumon1.png"></img>
-            <img className="sponsorImg" src="../kumon1.png"></img>
-            <img className="sponsorImg" src="../kumon1.png"></img> */}
+            <Row class="center">
+                <img className="bottomSponsorImg" src="../mathnasium.jpg"></img>
+                <img className="bottomSponsorImg" src="../brainstorm.png"></img>
+            </Row>
+
+
+
         </Container>
 
     );
