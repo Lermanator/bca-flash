@@ -52,3 +52,12 @@ button:hover {
 h6 {
     padding: 15px;
 }
+
+.noBtns {
+    font-size: 18px;
+}
+
+.logo {
+    height: 200px !important;
+    width: 300px !important;
+}
