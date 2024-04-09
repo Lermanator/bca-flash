@@ -50,19 +50,25 @@ img {
     width: 800px !important;
     height: 200px !important;
     margin: 30px;
+    border-radius: 5% !important;
 }
 .ShackSponsorImg {
     width: 500px !important;
     height: 295px !important;
     margin: 30px;
+    border-radius: 5% !important;
 }
-/* .KumonSponsorImg {
-    width: 250px !important;
-    height: 150px !important;
-    margin: 20px;
-} */
+
 .bottomSponsorImg {
     width: 550px !important;
     height: 250px !important;
     margin: 20px;
+    border-radius: 5% !important;
+}
+
+.kumon {
+    width: 670px !important;
+    height: 250px !important;
+    margin: 20px;
+    border-radius: 5% !important;
 }

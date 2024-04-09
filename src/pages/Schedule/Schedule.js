@@ -3,7 +3,7 @@ import './Schedule.css';
 import React from 'react';
 //import Typewriter from "typewriter-effect"; 
 //import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Fade from 'react-reveal/Fade';
 import { Container, Image, Row} from 'react-bootstrap';
 
 function Schedule() {
